@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+ <head>
+<title>UNBURDENED</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+ </head>
+    
+<body class="trackpackage">
+<nav class="w3-container w3-red w3-center" style="padding:128px 16px">
+ <div class="nav-bar">
+    <h1 class="title">TRACKING</h1>
+    <a href="index.html" class="button">Home</a>
+    <a href="shop.html" class="button">Shop</a>
+    <a href="about.html" class="button">About</a>
+    <a href="contact.html" class="button">Contact Us</a>
+    <a href="trackpackage.html" class="button">Track Package</a>
+  </div>
+</nav>    
+    
+    <h2 class="track_package">Track Your Package!</h2>
+<form class="trackform" action="https://formspree.io/f/xanoeral" method="post">
+    <input type="hidden" name="_next" value="/thankyou.html">
+    <input type="hidden" name="_replyto" value="email">
+   <table>
+<tr>
+     <th class="tracking">
+         <label for="name" class="label">Name</label>
+        </th>
+     <td class="tracking">
+         <input class="tracking2" type="text" id="name" name="name" required>
+          </td>
+    </tr>
+<tr>
+     <th class="tracking">
+         <label for="email" class="label">Email</label>
+        </th>
+     <td class="tracking">
+         <input class="tracking2" type="email" id="email" name="email" required>
+          </td>
+    </tr>   
+<tr>
+     <th class="tracking">
+         <label for="tracking_number" class="label">Tracking Number</label>
+        </th>
+     <td class="tracking">
+         <input class="tracking2" type="text" id="tracking_number" name="tracking_number" required>
+          </td>
+    </tr>   
+ <tr>
+     <th class="tracking">
+         <label for="comments" class="label">Comments</label>
+        </th>
+     <td class="tracking">
+         <textarea class="tracking2" id="comments" rows="4"></textarea>
+          </td>
+    </tr>          
+ <tr>
+     <td colspan="2" class="tracking">
+         <button class="trackingbutton" type="submit">Submit Tracking Information
+            </button>
+        </td>
+    </tr>        
+    </table>
+    
+</form>
+
+
+    
+</body>
+    
+   
+
+
+    </html>
